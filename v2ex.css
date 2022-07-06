@@ -20,7 +20,7 @@ select {
 }
 
 :root {
-  --box-border-radius: 2px;
+  --box-border-radius: 0px;
   --box-border-color: #f0f2f7;
   --link-color: #333;
   --box-border-color: #f0f2f7;
@@ -367,6 +367,7 @@ body .super.button {
   background-image: unset !important;
   text-shadow: unset !important;
   box-shadow: unset !important;
+  border-radius: var(--box-border-radius);
   border: 1px solid var(--primary-color) !important;
 }
 
