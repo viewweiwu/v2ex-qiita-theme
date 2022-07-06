@@ -1,0 +1,120 @@
+body #Wrapper.Night {
+  background: none !important;
+  background-image: none !important;
+  background-color: #141414 !important;
+  --box-border-color: #123a0a;
+  --link-color: #838383;
+  --primary-color: #4ca607;
+  --primary-color-hover: #4ca607;
+}
+
+a.top:link, a.top:visited,
+.site-nav #Logo::after {
+  color: #d5efd6;
+}
+
+#Top {
+  background-color: #337600;
+}
+
+.Night a.topic-link:active,
+.Night a.topic-link:link,
+.Night a.topic-link:hover {
+  color: #a3b4c1 !important;
+}
+
+.Night a.topic-link:visited {
+  color: #606060;
+}
+
+
+.Night #Rightbar .fade {
+  color: #ccc !important;
+}
+
+.Night .box {
+  border: none;
+}
+
+.Night .normal.button,
+.Night .super.button {
+  color: #fff !important;
+  border-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
+}
+
+.Night td.normal.button.disable_now,
+.Night td.super.button.disable_now {
+  color: rgba(255, 255, 255, 0.3) !important;
+  border-color: #434343 !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+}
+
+.Night .normal.button:hover,
+.Night .super.button {
+  color: #fff;
+  border-color: var(--primary-color-hover) !important;
+  background-color: var(--primary-color-hover) !important;
+}
+
+.Night .normal.button:hover:enabled,
+.Night .super.button {
+  background-color: var(--primary-color-hover) !important;
+  background: var(--primary-color-hover) !important;
+}
+
+.Night .outdated {
+  color: #5d9bad;
+}
+
+.Night img {
+  filter: brightness(0.9);
+}
+
+.Night .topic_info a {
+  color: #738292;
+}
+
+.Night select {
+  color: #d1d5d9;
+  background: transparent;
+}
+
+.Night #Main .cell.item {
+  background-color: #18222d;
+  padding: 16px 24px;
+  border-bottom: 8px solid #141414;
+  border-top: 8px solid #141414
+}
+
+.Night #SecondaryTabs {
+  border-bottom: 8px solid #141414;
+}
+
+.Night .select2-container--default .select2-selection--single {
+  border-color: var(--box-border-color);
+  background-color: #18222d;
+}
+
+.Night .select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #d1d5d9;
+}
+
+.Night .box form .cell {
+  background-color: transparent !important;
+}
+
+.Night .selectboxit-default-arrow {
+  border-top: 4px solid #fff;
+}
+
+.Night select,
+.Night .sl,
+.Night .ml,
+.Night .select2-container--default .select2-selection--single {
+  border-color: var(--box-border-color);
+}
+
+.Night .CodeMirror-scroll {
+  color: #fff;
+}
