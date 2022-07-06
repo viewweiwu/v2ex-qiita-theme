@@ -1,6 +1,6 @@
 /**
  * 作者：viewweiwu
- * github: https://github.com/viewweiwu/v2ex-zhihu-theme
+ * github: https://github.com/viewweiwu/v2ex-qiita-theme
  * 帖子地址: https://v2ex.com/t/819780
  */
 body {
@@ -46,8 +46,6 @@ a.topic-link:hover {
 }
 
 .bigger a,
-.flex-one-row a,
-.flex-row-end a,
 form a {
   color: var(--primary-color) !important;
 }
